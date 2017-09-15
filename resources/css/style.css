@@ -8,17 +8,46 @@ h1 {
   font-weight: bold;
 }
 
-#header {
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
+#header, .designedIn {
   background-image: url("../images/the-flatiron-building.png");
   color: white;
 }
 
-.nav1 {
-  color: white;
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-ul li {
+li a {
   color: white;
-  list-style-type: none;
   font-size: 18px;
+}
+
+#copyright {
+    color: white;
+    font-size: 11px;
+}
+
+#footer {
+  text-align: left;
+  background-color: dimgray
+}
+
+#nav2 li {
+  display: inline;
 }
